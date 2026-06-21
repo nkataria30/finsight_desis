@@ -99,67 +99,55 @@ News Service running at http://localhost:8001/docs
 
 ### Student View
 The student dashboard gives a complete financial snapshot in one place — budget utilization, pending trades awaiting guardian review, and any feedback or advice the guardian has left.
-
-![Student dashboard — budget tracker and parental advice](docs/screenshots/student_dashboard.png)
+<img width="1857" height="842" alt="image" src="https://github.com/user-attachments/assets/aec95eac-a065-44af-a10c-39d312f2fe93" />
 
 From the trade page, students submit buy/sell requests with their reasoning and track every past submission alongside the guardian's response.
-
-![Student trade page — submit request and trade history](docs/screenshots/student_trade_page.png)
+<img width="1832" height="832" alt="image" src="https://github.com/user-attachments/assets/f74bb1ab-615a-4554-a8af-8d44b3736abe" />
 
 ### Guardian View
 The Guardian Approval Portal gives full visibility into every trade request a linked student raises. Guardians review the reasoning behind it and approve or reject with an educational comment.
-
-![Guardian approval portal — pending trade review](docs/screenshots/guardian_approval.png)
+<img width="1913" height="898" alt="image" src="https://github.com/user-attachments/assets/4c491fab-4c11-4ce6-9bd9-819fb0cabbeb" />
 
 The Feedback History tab works as a complete audit trail of resolved trades — tracking decisions, comments, and the student's trading behavior over time.
+<img width="1905" height="911" alt="image" src="https://github.com/user-attachments/assets/5eaaa907-7f4d-4eb5-9ba9-aa5e165a54f4" />
 
-![Guardian feedback history — resolved trades and comments](docs/screenshots/guardian_feedback.png)
 
 ### Stock Analysis
 Daily prices, 1-year trends, and 5-year financial trends are synced automatically via Yahoo Finance and refreshed on a background scheduler — no manual updates needed.
-
-![Stock price and 5-year financial trend charts](docs/screenshots/stock_price_charts.png)
+<img width="1116" height="957" alt="image" src="https://github.com/user-attachments/assets/111489a2-21f6-48c2-9278-5cc7fdbd0c20" />
 
 An LLM turns dense financials into a plain-English investment summary — recommendation, risk level, confidence score, portfolio fit, and a balanced list of pros and cons.
-
-![AI investment summary with portfolio fit analysis](docs/screenshots/ai_investment_summary.png)
+<img width="1060" height="905" alt="image" src="https://github.com/user-attachments/assets/aa4b9cb1-105b-415c-a4fc-bc7bfb7c853a" />
 
 ### Portfolio Import & Diversification Scoring
 Instead of entering holdings one by one, users import their entire portfolio via CSV. FinSight scores diversification out of 100 using a blend of pairwise correlation, sector entropy, and concentration penalty.
-
-![Diversification score and sector allocation dashboard](docs/screenshots/diversification_dash.png)
+<img width="1918" height="761" alt="image" src="https://github.com/user-attachments/assets/878e468d-c4b2-43cf-ae0f-880fef20e1c2" />
 
 Significant stock-pair correlations are surfaced directly, along with the exact score formula, so the number is never a black box.
-
-![Significant stock correlations and score formula](docs/screenshots/correlation_table.png)
+<img width="1877" height="827" alt="image" src="https://github.com/user-attachments/assets/2203b119-5ab9-45e1-ba83-92900d6dfd70" />
 
 The Watchlist Impact Simulator lets users tweak share quantities on watchlist stocks and see the score shift live — before they actually buy.
-
-![Watchlist impact simulator](docs/screenshots/watchlist_simulator.png)
+<img width="1672" height="408" alt="image" src="https://github.com/user-attachments/assets/a042a117-f2a9-4a96-8185-c3dab6ab8a78" />
 
 ### Leaderboard Dashboard
 Answers the one question every investor actually wants to know — *which stocks are making money?* — ranking every holding by ROI with best/worst performers and total gain/loss at a glance.
-
-![Leaderboard dashboard ranking holdings by ROI](docs/screenshots/leaderboard_dashboard.png)
+<img width="1840" height="870" alt="image" src="https://github.com/user-attachments/assets/d4a8784f-aea6-4bb4-be92-7c6bb1f8074c" />
 
 ### News Service
 A dedicated FastAPI microservice aggregates live, stock-specific news from Yahoo RSS, Google News RSS, and NewsAPI, then deduplicates and sorts it by recency.
-
-![Market news feed filtered by sentiment](docs/screenshots/news_market_feed.png)
+<img width="1891" height="778" alt="image" src="https://github.com/user-attachments/assets/386fa421-e3f9-403b-a53d-efab04b49d79" />
 
 FinBERT scores each article's sentiment and impact, so a student gets an instant read on a headline without reading the full piece.
-
-![Per-article AI sentiment and impact analysis](docs/screenshots/news_ai_analysis.png)
+<img width="1827" height="642" alt="image" src="https://github.com/user-attachments/assets/4d46b606-d9e9-4cd1-b6f0-7e0c43242245" />
 
 ### Watchlist Module
 Live prices refresh every 10 seconds via yfinance, with custom price-target alerts, auto-labeled status badges (Target Hit / Near Target / Watching), and personal notes attached to each stock.
-
-![Watchlist with live prices and price target alerts](docs/screenshots/watchlist_module.png)
+<img width="1890" height="937" alt="image" src="https://github.com/user-attachments/assets/0f402b9c-457e-4c7f-9979-e4228cd0c053" />
 
 ### Stock Comparison Tool
 Compares trade setups side by side — entry, target, stop loss, upside %, Sharpe ratio, and a composite "Best Pick" verdict — turning subjective trade ideas into a consistent, explainable comparison.
+<img width="1900" height="942" alt="image" src="https://github.com/user-attachments/assets/83997728-62d5-4813-85bc-f68ef51c5b3f" />
 
-![Side-by-side stock comparison with AI recommendation](docs/screenshots/stock_comparison.png)
 
 ---
 
