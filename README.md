@@ -99,7 +99,7 @@ News Service running at http://localhost:8001/docs
 
 ### Student View
 The student dashboard gives a complete financial snapshot in one place — budget utilization, pending trades awaiting guardian review, and any feedback or advice the guardian has left.
-<img width="900" height="408" alt="image" src="https://github.com/user-attachments/assets/aec95eac-a065-44af-a10c-39d312f2fe93" />
+<img width="600" height="272" alt="image" src="https://github.com/user-attachments/assets/aec95eac-a065-44af-a10c-39d312f2fe93" />
 
 From the trade page, students submit buy/sell requests with their reasoning and track every past submission alongside the guardian's response.
 <img width="1832" height="832" alt="image" src="https://github.com/user-attachments/assets/f74bb1ab-615a-4554-a8af-8d44b3736abe" />
