@@ -95,7 +95,7 @@ Python Core running at http://localhost:8000/docs
 
 News Service running at http://localhost:8001/docs
 
-## ✨ Features & Screenshots
+## 🖥️ Websites Preview
 
 ### Student View
 The student dashboard gives a complete financial snapshot in one place — budget utilization, pending trades awaiting guardian review, and any feedback or advice the guardian has left.
